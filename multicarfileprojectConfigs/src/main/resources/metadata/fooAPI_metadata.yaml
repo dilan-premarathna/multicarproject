@@ -1,0 +1,11 @@
+---
+key: "fooAPI-1.0.0"
+name : "fooAPI"
+displayName : "fooAPI"
+description: "Sample API"
+version: "1.0.0"
+serviceUrl: "https://{MI_HOST}:{MI_PORT}/testcontext"
+definitionType: "OAS3"
+securityType: "BASIC"
+mutualSSLEnabled: false
+apiId : "null"

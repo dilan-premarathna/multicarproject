@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: fooAPI
+  description: API Definition of fooAPI
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/testcontext
+paths:
+  /:
+    get:
+      responses:
+        default:
+          description: Default response
