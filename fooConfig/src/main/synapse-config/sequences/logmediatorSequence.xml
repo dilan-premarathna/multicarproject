@@ -3,4 +3,11 @@
     <log level="custom">
         <property name="*********" value="invoked sequence"/>
     </log>
+    <payloadFactory media-type="json">
+        <format>{"newValue" : "$1"}</format>
+        <args>
+            <arg literal="true" value="invoked sequence *********"/>
+        </args>
+    </payloadFactory>
+    <respond/>
 </sequence>
